@@ -10,7 +10,7 @@
     <modules>
         <module>sellingpartner-api-aa-java</module>
         <module>sellingpartner-api-documents-helper-java</module>
-        <module>sellingpartner-api-models</module>
+        <module>sellingpartner-api-sdk</module>
     </modules>
 
     <properties>

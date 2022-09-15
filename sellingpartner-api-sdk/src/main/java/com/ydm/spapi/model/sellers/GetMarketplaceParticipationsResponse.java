@@ -16,7 +16,7 @@ package com.ydm.spapi.model.sellers;
 import java.util.Objects;
 
 import com.google.gson.annotations.SerializedName;
-import com.ydm.spapi.model.sellers.ErrorList;
+import com.ydm.spapi.model.ErrorList;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 

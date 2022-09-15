@@ -32,7 +32,6 @@ import com.ydm.spapi.model.feeds.CreateFeedDocumentResponse;
 import com.ydm.spapi.model.feeds.CreateFeedDocumentSpecification;
 import com.ydm.spapi.model.feeds.CreateFeedResponse;
 import com.ydm.spapi.model.feeds.CreateFeedSpecification;
-import com.ydm.spapi.model.feeds.ErrorList;
 import com.ydm.spapi.model.feeds.Feed;
 import com.ydm.spapi.model.feeds.FeedDocument;
 import com.ydm.spapi.model.feeds.GetFeedsResponse;
