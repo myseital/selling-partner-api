@@ -8,7 +8,7 @@
     <version>1.0.0</version>
   </parent>
   <artifactId>sellingpartner-api-documents-helper-java</artifactId>
-  <version>1.0.0</version>
+  <version>${sellingpartner-api-documents.version}</version>
 
   <properties>
     <java.version>1.8</java.version>

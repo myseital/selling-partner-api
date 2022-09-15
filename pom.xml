@@ -35,6 +35,9 @@
             <id>dev</id>
             <properties>
                 <profileActive>dev</profileActive>
+                <sellingpartner-api-aa.version>1.0.0</sellingpartner-api-aa.version>
+                <sellingpartner-api-documents.version>1.0.0</sellingpartner-api-documents.version>
+                <sellingpartner-api-sdk.version>1.0.0</sellingpartner-api-sdk.version>
             </properties>
             <activation>
                 <activeByDefault>true</activeByDefault>
@@ -56,6 +59,16 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.ydm</groupId>
+                <artifactId>sellingpartner-api-aa-java</artifactId>
+                <version>${sellingpartner-api-aa.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ydm</groupId>
+                <artifactId>sellingpartner-api-documents-helper-java</artifactId>
+                <version>${sellingpartner-api-documents.version}</version>
+            </dependency>
             <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-signer -->
             <dependency>
                 <groupId>com.amazonaws</groupId>

@@ -9,7 +9,7 @@
         <version>1.0.0</version>
     </parent>
     <artifactId>sellingpartner-api-aa-java</artifactId>
-    <version>1.0.0</version>
+    <version>${sellingpartner-api-aa.version}</version>
     <build>
         <plugins>
             <plugin>

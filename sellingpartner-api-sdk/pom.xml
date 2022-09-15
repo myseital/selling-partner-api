@@ -8,7 +8,7 @@
     </parent>
     <artifactId>selling-partner-api-sdk</artifactId>
     <name>selling-partner-api-sdk</name>
-    <version>1.0.0</version>
+    <version>${sellingpartner-api-sdk.version}</version>
 
     <properties>
         <swagger-core-version>1.5.18</swagger-core-version>
@@ -18,7 +18,10 @@
         <dependency>
             <groupId>com.ydm</groupId>
             <artifactId>sellingpartner-api-aa-java</artifactId>
-            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ydm</groupId>
+            <artifactId>sellingpartner-api-documents-helper-java</artifactId>
         </dependency>
         <dependency>
             <groupId>com.squareup.okhttp</groupId>
